@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test React Component with Enzyme should match snapshoot 1`] = `
+<div>
+  <div
+    data-testid="title"
+  >
+    Titulo je
+  </div>
+  <div
+    data-testid="body"
+  >
+    Body
+    <SummComponent />
+  </div>
+  <div
+    data-testid="footer"
+  >
+    Footer
+  </div>
+</div>
+`;
+
+exports[`Test React Component with React Test Renderer should match snapshoot 1`] = `
+<div>
+  <div
+    data-testid="title"
+  >
+    Titulo je
+  </div>
+  <div
+    data-testid="body"
+  >
+    Body
+    <form
+      onSubmit={[Function]}
+    >
+      <p>
+        Ingrese primer valor:
+        <input
+          data-testid="firstNumber"
+          name="valor1"
+          onChange={[Function]}
+          type="text"
+        />
+      </p>
+      <p>
+        Ingrese segundo valor:
+        <input
+          data-testid="secondNumber"
+          name="valor2"
+          onChange={[Function]}
+          type="text"
+        />
+      </p>
+      <input
+        data-testid="button"
+        onClick={[Function]}
+        type="submit"
+        value="Sumar"
+      />
+    </form>
+    Result: 
+    <span
+      data-testid="result"
+    >
+      0
+    </span>
+  </div>
+  <div
+    data-testid="footer"
+  >
+    Footer
+  </div>
+</div>
+`;
+
+exports[`Test React Component with React testing library should match snapshoot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      data-testid="title"
+    >
+      Titulo je
+    </div>
+    <div
+      data-testid="body"
+    >
+      Body
+      <form>
+        <p>
+          Ingrese primer valor:
+          <input
+            data-testid="firstNumber"
+            name="valor1"
+            type="text"
+          />
+        </p>
+        <p>
+          Ingrese segundo valor:
+          <input
+            data-testid="secondNumber"
+            name="valor2"
+            type="text"
+          />
+        </p>
+        <input
+          data-testid="button"
+          type="submit"
+          value="Sumar"
+        />
+      </form>
+      Result: 
+      <span
+        data-testid="result"
+      >
+        0
+      </span>
+    </div>
+    <div
+      data-testid="footer"
+    >
+      Footer
+    </div>
+  </div>
+</DocumentFragment>
+`;

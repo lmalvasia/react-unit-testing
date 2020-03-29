@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summ test should match snapshoot 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <p>
+      Ingrese primer valor:
+      <input
+        data-testid="firstNumber"
+        name="valor1"
+        onChange={[Function]}
+        type="text"
+      />
+    </p>
+    <p>
+      Ingrese segundo valor:
+      <input
+        data-testid="secondNumber"
+        name="valor2"
+        onChange={[Function]}
+        type="text"
+      />
+    </p>
+    <input
+      data-testid="button"
+      onClick={[Function]}
+      type="submit"
+      value="Sumar"
+    />
+  </form>
+  Result: 
+  <span
+    data-testid="result"
+  >
+    0
+  </span>
+</Fragment>
+`;
